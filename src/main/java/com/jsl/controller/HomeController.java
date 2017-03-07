@@ -13,7 +13,7 @@ public class HomeController {
     @RequestMapping(value="/fly")
     public ModelAndView home(){
         ModelAndView model = new ModelAndView("test");
-        model.addObject("message", "Hi, Everyone");
+        model.addObject("message", "Hi, Everyone.");
         return model;
     }
 
